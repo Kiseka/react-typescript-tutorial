@@ -5,6 +5,9 @@ import { store } from './app/store';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import './index.css';
+import "popper.js";
+import "bootstrap";
+import "./assets/scss/app.scss"
 
 const container = document.getElementById('root')!;
 const root = createRoot(container);

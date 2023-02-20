@@ -1,0 +1,9 @@
+@import "izitoast/dist/css/iziToast.min.css";
+@import 'variables';
+@import "~bootstrap/scss/bootstrap";
+@import 'bootswatch';
+@import 'util';
+
+.modal-show{
+    display: block; padding-right: 17px;
+}
