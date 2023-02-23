@@ -8,16 +8,23 @@ import './index.css';
 import "popper.js";
 import "bootstrap";
 import "./assets/scss/app.scss"
+import { getUserProfile, loginUser } from './features/auth/authSlice';
+import { BrowserRouter} from 'react-router-dom';
 
 const container = document.getElementById('root')!;
 const root = createRoot(container);
 
+// const data = {
+//   email:"admin@example.com",
+//   password: "123"
+// };
+// store.dispatch(loginUser(data));
 root.render(
-  <React.StrictMode>
+  // <React.StrictMode>
     <Provider store={store}>
-      <App />
+        <App />
     </Provider>
-  </React.StrictMode>
+  // </React.StrictMode>
 );
 
 // If you want to start measuring performance in your app, pass a function
